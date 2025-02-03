@@ -1,5 +1,5 @@
 ---
-title: "Desafio Cientista de Dados - Indicium"
+title: "Desafio Ciência de Dados - Indicium"
 author: |
  | Juliana Beker Godoy
 date: "`r Sys.Date()`"
