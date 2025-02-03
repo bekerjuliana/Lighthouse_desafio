@@ -397,47 +397,6 @@ ggplot(df_rent, aes(x=disponibilidade_365, y=price)) +
   theme(axis.text = element_text(size = 12))
 ```
 
-
-
-```{r reg_disp_reviews_bairro, echo=FALSE, cache=FALSE, warning=FALSE,}
-
-ggplot(subBronx, aes(x=disponibilidade_365, y=numero_de_reviews)) + 
-  geom_point() +
-  stat_smooth(method = "lm", se=F) +
-  stat_cor(method = "spearman") + 
-  labs(x = "Disponibilidade (dias)", y = "Número de reviews", title = "Número de reviews por disponibilidade no Bronx")+
-  theme_minimal()
-  
-ggplot(subBrooklyn, aes(x=disponibilidade_365, y=numero_de_reviews)) + 
-  geom_point() +
-  stat_smooth(method = "lm", se=F) +
-  stat_cor(method = "spearman") + 
-  labs(x = "Disponibilidade (dias)", y = "Número de reviews", title = "Número de reviews por disponibilidade no Brooklyn")+
-  theme_minimal()
-
-ggplot(subManhattan, aes(x=disponibilidade_365, y=numero_de_reviews)) + 
-  geom_point() +
-  stat_smooth(method = "lm", se=F) +
-  stat_cor(method = "spearman") + 
-  labs(x = "Disponibilidade (dias)", y = "Número de reviews", title = "Número de reviews por disponibilidade em Manhattan")+
-  theme_minimal()
-
-ggplot(subQueens, aes(x=disponibilidade_365, y=numero_de_reviews)) + 
-  geom_point() +
-  stat_smooth(method = "lm", se=F) +
-  stat_cor(method = "spearman") + 
-  labs(x = "Disponibilidade (dias)", y = "Número de reviews", title = "Número de reviews por disponibilidade no Queens")+
-  theme_minimal()
-
-ggplot(subStaten, aes(x=disponibilidade_365, y=numero_de_reviews)) + 
-  geom_point() +
-  stat_smooth(method = "lm", se=F) +
-  stat_cor(method = "spearman") + 
-  labs(x = "Disponibilidade (dias)", y = "Número de reviews", title = "Número de reviews por disponibilidade em Staten Island")+
-  theme_minimal()
-    
-```
-
 ## Em qual bairro devo comprar?
 
 De acordo com as análises abaixo Manhattan é a melhor escolha para a compra de impoveis para aluguéis de curta temporada em NY.
