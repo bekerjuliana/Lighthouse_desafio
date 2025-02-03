@@ -2,7 +2,7 @@
 
 > Este repositório contém os resultados das análises exploratórias e a aplicação de técnicas de machine learning
 
-> O vídeo de explicação pode ser encontrado no Google Drive: [Clique aqui](https://docs.google.com/spreadsheets/d/11Ts8o1gQrzWQ4KoI7_UuudokQ-LxWyYY8iEbXD6sdyU/edit#gid=0) for acess the "Registro de Testes". 
+> O vídeo de explicação pode ser encontrado no Google Drive: [Clique aqui](https://drive.google.com/file/d/1Wgp5hY_U381UPULocbFSX50YSFNn1oa8/view?usp=sharing) 
 
 *****************************************
 
