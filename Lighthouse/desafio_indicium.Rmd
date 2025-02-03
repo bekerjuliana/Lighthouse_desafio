@@ -183,7 +183,7 @@ percent_noites
 
 ### Disponibilidade ao longo do ano
 
-32% das acomodações ficam indisponíveis durante todo o ano. Porém, mais de dois terços do conjunto de dados (40%) ficam disponíveis por mais de 100 dias no mercado.
+32% das acomodações ficam indisponíveis durante todo o ano. Porém, mais de um terço do conjunto de dados (40%) ficam disponíveis por mais de 100 dias no mercado.
 
 ```{r disponibilidade_365, echo=FALSE, cache=FALSE, warning=FALSE,}
 quantiles_disp_365 <- quantile(df_rent$disponibilidade_365, probs = c(0,0.15,0.30,0.5,0.75,0.95,1))
